@@ -1,14 +1,14 @@
 
   # Music Streaming Web App
 
-  ## Credits
+  ## Used in this Project & credits
 
   - **UI Design**: [Figma Designs](https://figma.com)
   - **Music App UI**: Rajput Hemant
    [@rajput-hemant](https://infinitunes.rajputhemant.dev/)
   - **Backend Development**: [Node.js](https://nodejs.org) & [Express](https://expressjs.com)
   - **Frontend Framework**: [ViteJS](https://vitejs.dev)
-  - **Database**: [MongoDB](https://www.mongodb.com)
+  - **Database**: [Supabase](https://supabase.com/)
   - **API**: [Saavn API](https://github.com/MrAbhi2k3/SaavnAPI)
 
   ## Features
@@ -23,14 +23,14 @@
 
   ### Prerequisites
   - Node.js v16+
-  - MongoDB instance
-  - Saavn API credentials
+  - Supabase instance
+  - Saavn API URL Deploy Your Own
 
   ### Installation
 
   ```bash
   git clone https://github.com/MrAbhi2k3/MusicWebapp.git
-  cd musicsync
+  cd MusicWebapp
   npm install
   ```
 
@@ -48,7 +48,7 @@
   ### Running the App
 
   ```bash
-  npm start
+  npm run dev
   ```
 
   Visit `http://localhost:5173` in your browser.
