@@ -29,7 +29,7 @@
   ### Installation
 
   ```bash
-  git clone https://github.com/MrAbhi2k3/musicsync.git
+  git clone https://github.com/MrAbhi2k3/MusicWebapp.git
   cd musicsync
   npm install
   ```
@@ -39,9 +39,10 @@
   Create a `.env` file in the root directory:
 
   ```
-  SAAVN_API_URL=URL
-  MONGODB_URI=your_mongodb_uri
-  PORT=3000
+  VITE_API_BASE_URL=URL
+  VITE_SUPABASE_URL=URL_of_your_supabase_instance
+  VITE_SUPABASE_ANON_KEY=KEY_of_your_supabase_instance
+  PORT=5173
   ```
 
   ### Running the App
